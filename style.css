@@ -1,13 +1,18 @@
-<!doctype html>
+@font-face {
+  font-family: 'Raleway';
+  src: url("fonts/Raleway");
+}
 
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
-</head>
+html {
+  background-color: #E1C564;
+}
 
-<body>
-  <!-- your content here... -->
-  <script src="script.js"></script>
-</body>
-</html>
+#gros-titre {
+  font-family: Raleway, Arial, sans-serif;
+  letter-spacing: 0.08em;
+  color: black;
+}
+
+.centre {
+  text-align: center;
+}
